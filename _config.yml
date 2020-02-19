@@ -19,19 +19,36 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Dedsec Blog
-email: chitturiprasanth13797@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog of Prasanth Kanna Chitturi
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "Dedsec727.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+#-------------------------------
+# Contact links
 twitter_username: PrasanthKanna27
 github_username:  Kanna727
+email: chitturiprasanth13797@gmail.com
 
 # Build settings
 # theme: minima
-theme: jekyll-theme-hacker
+# theme: jekyll-theme-hacker
+markdown: kramdown
+permalink: ':title/'
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 7
+paginate_path: "/page/:num"
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
