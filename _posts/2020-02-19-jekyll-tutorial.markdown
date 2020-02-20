@@ -10,12 +10,26 @@ image:  01.jpg
 
 * Create a New Ogranization on Github
 
-* Create a New Repository in that organization named: **`organization_name.github.io`**
+* Create a New Repository in that organization named:
+
+    ```
+    organization_name.github.io
+    ```
 
 * Copy the Repository URL
 
 * Open VSCode -> Press F1 -> Git: Clone -> paste repo URL -> Select Folder
 
-* Open Terminal: ctrl + `
+* Open Terminal:
 
-* Run `Jekyll new .`
+    ```
+    ctrl + `
+    ```
+
+* Run
+
+    ```
+    Jekyll new .
+
+    bundle exec jekyll serve
+    ```
