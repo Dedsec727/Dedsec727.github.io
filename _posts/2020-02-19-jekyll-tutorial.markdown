@@ -12,9 +12,9 @@ image:  01.jpg
 
 * Create a New Repository in that organization named:
 
-    ```
+    {% highlight markdown %}
     organization_name.github.io
-    ```
+    {% endhighlight %}
 
 * Copy the Repository URL
 
@@ -22,14 +22,14 @@ image:  01.jpg
 
 * Open Terminal:
 
-    ```
+    {% highlight markdown %}
     ctrl + `
-    ```
+    {% endhighlight %}
 
 * Run
 
-    ```
+    {% highlight markdown %}
     Jekyll new .
 
     bundle exec jekyll serve
-    ```
+    {% endhighlight %}
