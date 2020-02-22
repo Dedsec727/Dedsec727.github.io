@@ -5,6 +5,7 @@ date: 2020-02-21 09:23
 author: Prasanth Kanna
 tags: [Batch Scripting]
 summary: 
+image:  11.jpg
 ---
 
 [EXISTING SOLUTION](#existing-solution)
