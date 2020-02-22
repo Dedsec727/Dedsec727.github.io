@@ -8,6 +8,8 @@ summary: Have you ever wondered how to launch cmd directly from Windows Explorer
 image:  11.jpg
 ---
 
+Have you ever wondered how to launch cmd directly from Windows Explorer without having to cd again to that folder? This blog will explain to do that and also to launch the admin cmd
+
 [EXISTING SOLUTION](#existing-solution)
 
 [PROBLEM WITH EXISTING SOLUTION](#problem-with-existing-solution)
