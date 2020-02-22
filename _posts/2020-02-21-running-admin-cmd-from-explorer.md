@@ -4,7 +4,7 @@ title: Running Admin CMD From Windows Explorer
 date: 2020-02-21 09:23
 author: Prasanth Kanna
 tags: [Batch Scripting]
-summary: 
+summary: Have you ever wondered how to launch cmd directly from Windows Explorer without having to cd again to that folder? This blog will explain to do that and also to launch the admin cmd
 image:  11.jpg
 ---
 
