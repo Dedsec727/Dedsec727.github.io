@@ -51,7 +51,7 @@ sass:
   style: compressed
 
 # Syntax highlighting
-highlighter:         pygments
+highlighter:         rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default.
