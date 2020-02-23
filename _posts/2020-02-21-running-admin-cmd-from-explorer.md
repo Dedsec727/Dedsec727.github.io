@@ -44,6 +44,6 @@ The above shortcut is quick and easy to open cmd at the current folder. But It w
 
 ## OBSERVATION
 
-HI
+
 
 ## SOLUTION
