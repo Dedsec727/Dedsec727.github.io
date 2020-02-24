@@ -20,7 +20,7 @@ You have successfully published a blog via github-pages using Jekyll. You can ed
 * On your Android Device, Install: [Spck Code Editor](https://play.google.com/store/apps/details?id=io.spck&hl=en_IN)
 * Get yourself a [Github Personal Access Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line#creating-a-token). Follow upto step 9 and store the copied token somewhere, because you can only see it once.
 * Set your Username, Token and Email
-* In `Spck App`, Go to Projects Tab. Click on the little Github Fork Icon
+* In `Spck App`, Go to Projects Tab. Click on the little Github Source Control Icon
 
 ![]({{site.baseurl}}/img/jekyll-blogging-from-android/spck_git.jpg)
 
@@ -38,7 +38,6 @@ You have successfully published a blog via github-pages using Jekyll. You can ed
 * Click `Commit All` -> Enter Commit Message -> Press Enter
   
 ![]({{site.baseurl}}/img/jekyll-blogging-from-android/spck_git_commit_push2.jpg)
-
 
 * After Committing is done, Click `Push` -> Press OK
 * That's it!!! You have successfully modified your post from mobile.
