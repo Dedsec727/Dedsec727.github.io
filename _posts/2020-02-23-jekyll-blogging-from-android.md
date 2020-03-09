@@ -17,8 +17,8 @@ You have successfully published a blog via github-pages using Jekyll. You can ed
 
 ## SETUP
 
-* On your Android Device, Install: [Spck Code Editor](https://play.google.com/store/apps/details?id=io.spck&hl=en_IN)
-* Get yourself a [Github Personal Access Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line#creating-a-token). Follow upto step 9 and store the copied token somewhere, because you can only see it once.
+* On your Android Device, Install: [Spck Code Editor](https://play.google.com/store/apps/details?id=io.spck&hl=en_IN){:target="_blank"}
+* Get yourself a [Github Personal Access Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line#creating-a-token){:target="_blank"}. Follow upto step 9 and store the copied token somewhere, because you can only see it once.
 * Set your Username, Token and Email
 * In `Spck App`, Go to Projects Tab. Click on the little Github Source Control Icon
 
