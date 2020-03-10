@@ -7,6 +7,7 @@ $(function() {
   var $menuOpenButton = $(".menu-button"),
       $menuCloseButton = $(".menu-close"),
       $navMenu = $(".nav-menu"),
+      $indexNavMenu = $(".index-nav-menu"),
 
       $searchOpenButton = $(".search-button"),
       $searchCloseButton = $(".search-close-button"),
@@ -38,10 +39,12 @@ $(function() {
 
   function openMenu() {
     $navMenu.addClass("active");
+    $indexNavMenu.addClass("active");
   }
 
   function closeMenu() {
     $navMenu.removeClass("active");
+    $indexNavMenu.removeClass("active");
   }
 
   function openSearch() {
@@ -130,4 +133,8 @@ $(function() {
       .animate({ scrollTop: 0 }, "slow", "swing");
   });
 
+  $("#moreLink").click(function (e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, "slow", "swing");
+  });
 });

@@ -1,7 +1,8 @@
 // Header
 .header {
   margin-bottom: 50px;
-  background: $black;
+  background: black;
+  
 }
 
 .header, .header-box {
@@ -44,7 +45,7 @@
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transform: scale(1);
     height: 100%;
-    z-index: 10;
+    z-index: 750;
     opacity: 1;
   }
 }
