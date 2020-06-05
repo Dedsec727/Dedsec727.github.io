@@ -80,5 +80,6 @@ Not just dropping s1, but also trying to use s1 later won't compile the code
 
 If you’ve heard the terms shallow copy and deep copy while working with other languages, Rust uses move instead of shallow copy
 
-## Race Conditions
+## Data Race
 
+(To be continued...)
