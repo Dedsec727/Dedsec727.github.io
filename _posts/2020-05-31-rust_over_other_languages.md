@@ -13,7 +13,7 @@ What made Rust that much popular? What are the advantages of Rust over other lan
 features of Rust with good old C++, that make Rust stand out. This blog does not point out differences, rather it focuses
 on how rust is perfect at handling some typical errors in C++
 
-## No Icrement & Decrement Operators
+## No Increment & Decrement Operators
 
 Consider the following C++ code:
 
@@ -37,8 +37,8 @@ let j = i;
 
 The above code seems good enough right? But actually it won't compile.
 
-In rust every variable is mutable by default. You cannot modify a variable once you initalize it. So i the above code
-both i and j are mutable, so we cannot increment i. We need to expilicty specify that i is mutable using mut keyword.
+In rust every variable is mutable by default. You cannot modify a variable once you initialize it. So i the above code
+both i and j are mutable, so we cannot increment i. We need to explicitly specify that i is mutable using mut keyword.
 
 {% highlight rust %}
 let mut i: i32 = 0;
@@ -65,7 +65,7 @@ delete s2;
 Problem: The above code compiles perfectly in C++. You will only know about Double Free error during runtime while using a debugger.
 Else it will be very hard to track this error and it can lead to memory corruption.
 
-Rust handles this error by moving ownsership of s1 to s2 and making s1 invalid. Consider following Rust code:
+Rust handles this error by moving ownership of s1 to s2 and making s1 invalid. Consider following Rust code:
 
 {% highlight rust %}
 let s1 = String::from("Hello");

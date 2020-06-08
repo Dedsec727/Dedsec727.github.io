@@ -40,7 +40,7 @@ The shortcut to open a cmd from a windows explorer and change the directory auto
 
 ## PROBLEM WITH EXISTING SOLUTION
 
-The above shortcut is quick and easy to open cmd at the current folder. But It will not opem cmd in Administrator mode.
+The above shortcut is quick and easy to open cmd at the current folder. But It will not open cmd in Administrator mode.
 
 ## OBSERVATION
 
