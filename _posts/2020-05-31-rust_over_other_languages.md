@@ -5,7 +5,7 @@ date: 2020-05-31 15:33
 category: 
 author: Prasanth Kanna
 tags: [Rust]
-image: rust_over_other_languages/rust-logo.jpg
+image: rust_over_other_languages/rust.jpg
 ---
 
 Rust is getting soo popular that it is one of the highest paying languages in the world, ranking 4th after Perl, Scala & Go.
