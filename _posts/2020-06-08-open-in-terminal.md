@@ -19,5 +19,5 @@ No harm if Chrome or any other browser is flagging the installer as harmful. It'
 This project is in Beta. [Open for issues][3].
 
 [1]:{{site.baseurl}}/files/releases/open-in-terminal/Open in Terminal Installer.msi
-[2]:<https://github.com/Kanna727/Open-in-Terminal>
-[3]:<https://github.com/Kanna727/Open-in-Terminal/issues>
+[2]:<https://github.com/Kanna727/Open-in-Terminal>{:target="_blank"}
+[3]:<https://github.com/Kanna727/Open-in-Terminal/issues>{:target="_blank"}
