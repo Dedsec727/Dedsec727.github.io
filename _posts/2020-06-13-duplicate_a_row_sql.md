@@ -9,7 +9,7 @@ summary: How to duplicate a row inside a table in SQL
 image: duplicate_a_row_sql/img.jpg
 ---
 
-Let's suppose a table has 200 columms and 500 rows. It has the first column as Identity. You might want to insert a new row having the same values as the last row. What would you do? Copy the whole row and explicitly insert `,` and `'` wherever necessary and execute an Insert command? It would take a lot of time especially if the table has large number of columns like 200 in our case. The efficient and time saving solution for this problem is:
+Let's suppose a table has 200 columns and 500 rows. It has the first column as Identity. You might want to insert a new row having the same values as the last row. What would you do? Copy the whole row and explicitly insert `,` and `'` wherever necessary and execute an Insert command? It would take a lot of time especially if the table has large number of columns like 200 in our case. The efficient and time saving solution for this problem is:
 
 1. Insert the desired row you want to duplicate into a temporary table.
 2. Do any of the following as per your requirement:
