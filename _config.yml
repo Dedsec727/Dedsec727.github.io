@@ -28,7 +28,11 @@ url: "Dedsec727.github.io" # the base hostname & protocol for your site, e.g. ht
 # Contact links
 twitter_username: PrasanthKanna27
 github_username:  Kanna727
-email: chitturiprasanth13797@gmail.com
+email: chitturiprasanth13797@gmail.
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: dedsec-blog # Add your shortname for Disqus Comment. For example mr-brown
 
 # Build settings
 # theme: minima
