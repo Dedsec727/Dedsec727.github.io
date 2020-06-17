@@ -5,7 +5,7 @@ date: 2020-06-13 16:15
 category: 
 author: Prasanth Kanna
 tags: [C++]
-description: Evolution of C++
+description: Brief info on all the changes in every iteration of C++
 image: cpp_evolution/cpp_evolution.jpg
 ---
 
