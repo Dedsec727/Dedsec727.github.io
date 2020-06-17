@@ -21,13 +21,13 @@ Let's suppose a table has 200 columns and 500 rows. It has the first column as I
 The SQL command would look like this:
 
 {% highlight sql %}
-SELECT * INTO #temp FROM \<your_table> WHERE \<conditions>
+SELECT * INTO #temp FROM <your_table> WHERE <conditions>
 
 -- Execute any of the below commands as per requirement --
-ALTER TABLE #temp DROP COLUMN \<identity_column>
+ALTER TABLE #temp DROP COLUMN <identity_column>
                 -- OR --
-UPDATE #temp SET \<primary_key_or_other_columns>
+UPDATE #temp SET <primary_key_or_other_columns>
 ----------------------------------------------------------
 
-INSERT INTO \<your_table> SELECT * FROM #temp
+INSERT INTO <your_table> SELECT * FROM #temp
 {% endhighlight %}
