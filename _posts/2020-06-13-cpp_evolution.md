@@ -201,9 +201,9 @@ Library features
 * emplace() and other use of rvalue references throughout all parts of the existing library
   * std::unique_ptr
   * std::move_iterator
-* s  d::initializer_list
-* s  ateful and scoped allocators
-* s  d::forward_list
+* std::initializer_list
+* stateful and scoped allocators
+* std::forward_list
 * chrono library
 * ratio library
 * new algorithms
