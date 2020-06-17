@@ -5,7 +5,7 @@ date: 2020-06-13 13:51
 category:
 author: Prasanth Kanna
 tags: [SQL]
-summary: How to duplicate a row inside a table in SQL
+description: How to duplicate a row inside a table in SQL
 image: duplicate_a_row_sql/img.jpg
 ---
 

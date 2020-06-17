@@ -5,7 +5,7 @@ date: 2020-03-07 20:55
 category: 
 author: Prasanth Kanna
 tags: [VSCode, C++]
-summary: Setting Up VSCode to Compile & Debug C++
+description: Setting Up VSCode to Compile & Debug C++
 image: cpp-on-vscode/cpp-vscode.png
 ---
 

@@ -6,6 +6,7 @@ category:
 author: Prasanth Kanna
 tags: [Rust]
 image: rust_over_other_languages/rust.jpg
+description: How rust is safe and handles typical errors in other languages
 ---
 
 Rust is getting soo popular that it is one of the highest paying languages in the world, ranking 4th after Perl, Scala & Go.

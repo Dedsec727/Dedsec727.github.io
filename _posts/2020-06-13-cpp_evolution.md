@@ -5,7 +5,7 @@ date: 2020-06-13 16:15
 category: 
 author: Prasanth Kanna
 tags: [C++]
-summary: Evolution of C++
+description: Evolution of C++
 image: cpp_evolution/cpp_evolution.jpg
 ---
 

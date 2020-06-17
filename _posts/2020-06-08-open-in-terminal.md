@@ -5,7 +5,7 @@ date: 2020-06-08 12:19
 category: 
 author: Prasanth Kanna
 tags: [Windows, Terminal]
-summary: Adds Open in Terminal shortcut to Folder's Context Menu
+description: Adds Open in Terminal shortcut to Folder's Context Menu
 image: open-in-terminal/terminal.jpg
 ---
 

@@ -5,7 +5,7 @@ date: 2020-02-23 18:53
 category: 
 author: Prasanth kanna
 tags: [Jekyll, Git]
-summary: Jekyll Blogging directly from Android
+description: Jekyll Blogging directly from Android
 image: jekyll-blogging-from-android/img.jpg
 ---
 
