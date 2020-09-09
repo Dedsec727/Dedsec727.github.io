@@ -44,7 +44,7 @@ Run following commands to create a simple Express server:
 npm init (NOTE: Change the entrypoint to `app.js`)
 npx express-generator --view=pug --git
 npm i
-npm install pug 
+npm install pug@3.0.0 
 {% endhighlight %}
 
 # PERFORMANCE
