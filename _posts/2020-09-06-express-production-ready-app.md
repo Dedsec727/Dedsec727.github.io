@@ -274,7 +274,7 @@ var jwtExpiryInSec = config.jwtExpiryInSec
 
 ### Securing Secrets
 
-> _RULE: Never commit your secrets file to source control_
+> _RULE: Never commit your secrets file to source control. Make sure you add `.env-cmdrc` to `.gitignore`_
 
 We should not expose our secrets file to public. There are three approaches to do this:
 
@@ -319,6 +319,8 @@ make decrypt_conf
 npx-generator creates a basic HTTP server for us. But we must always use HTTPS for our server while in production.
 
 * Get yourself a SSL Certificate for your server and store the certificate files(cert.pem & private key file) in a new folder named `certificates` in your project's root.
+
+> _RULE: Never commit your certificates folder to source control. Make sure you add `certificates/` to `.gitignore`_
 
 * Generating Self-signed Certificate:
   
