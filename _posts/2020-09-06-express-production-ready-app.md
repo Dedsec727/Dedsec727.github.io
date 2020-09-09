@@ -441,6 +441,7 @@ var session = require('express-session');
       maxAge: config.jwtExpiryInSec * 1000 // sets expiry time
     }
   }));
+  app.use(passport.session());
 {% endhighlight %}
 
 ## Securing Dependencies
